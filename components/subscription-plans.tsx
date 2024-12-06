@@ -96,6 +96,7 @@ export default function SubscriptionPlans() {
           <div className="space-y-2">
             <p className="text-sm text-gray-500">STEP <span className="font-bold">1</span> OF <span className="font-bold">2</span></p>
             <h1 className="text-2xl md:text-3xl text-black font-medium">Choose the plan that&apos;s right for you</h1>
+            <h4 className=" text-gray-800 font-medium opacity-80">Pay $0.00 Today . Cancel online anytime. </h4>
           </div>
 
           {/* Desktop View */}
@@ -128,30 +129,30 @@ export default function SubscriptionPlans() {
                 </div>
                 <div className="p-6 space-y-4">
                   <div className="border-b border-gray-400 py-2">
-                    <p className="text-xs text-[#838383] font-semibold">Monthly price</p>
-                    <p className="text-xs text-[#464646] font-semibold">{plan.price}</p>
+                    <p className="text-xs text-[#838383] font-normal">Monthly price</p>
+                    <p className="text-xs text-[#464646] font-thin">{plan.price}</p>
                   </div>
                   <div className="border-b border-gray-400 py-2">
-                    <p className="text-xs text-[#838383] font-semibold">Video and sound quality</p>
-                    <p className="text-xs text-[#464646] font-semibold">{plan.videoQuality}</p>
+                    <p className="text-xs text-[#838383] font-normal">Video and sound quality</p>
+                    <p className="text-xs text-[#464646] font-thin">{plan.videoQuality}</p>
                   </div>
                   <div className="border-b border-gray-400 py-2">
-                    <p className="text-xs text-[#838383] font-semibold">Resolution</p>
-                    <p className="text-xs text-[#464646] font-semibold">{plan.resolution}</p>
+                    <p className="text-xs text-[#838383] font-normal">Resolution</p>
+                    <p className="text-xs text-[#464646] font-thin">{plan.resolution}</p>
                   </div>
                   <div className="border-b border-gray-400 py-2">
-                    <p className="text-xs text-[#838383] font-semibold">Supported devices</p>
-                    <p className="text-xs text-[#464646] font-semibold">{plan.supportedDevices.join(", ")}</p>
+                    <p className="text-xs text-[#838383] font-normal">Supported devices</p>
+                    <p className="text-xs text-[#464646] font-thin">{plan.supportedDevices.join(", ")}</p>
                   </div>
                   <div className="border-b border-gray-400 py-2">
-                    <p className="text-xs text-[#838383] font-semibold">
+                    <p className="text-xs text-[#838383] font-normal">
                       Devices your household can watch at the same time
                     </p>
-                    <p className="text-xs text-[#464646] font-semibold">{plan.simultaneousStreams}</p>
+                    <p className="text-xs text-[#464646] font-thin">{plan.simultaneousStreams}</p>
                   </div>
                   <div className="">
-                    <p className="text-xs text-[#838383] font-semibold">Download devices</p>
-                    <p className="text-xs text-[#464646] font-semibold">{plan.downloadDevices}</p>
+                    <p className="text-xs text-[#838383] font-normal">Download devices</p>
+                    <p className="text-xs text-[#464646] font-thin">{plan.downloadDevices}</p>
                   </div>
                 </div>
               </Card>
