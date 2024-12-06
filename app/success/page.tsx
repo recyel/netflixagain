@@ -107,11 +107,7 @@ export default function SuccessPage() {
             {state?.error && (
               <p className="text-red-500 mt-2">{state.error}</p>
             )}
-            {state?.success && (
-              <p className="text-green-500 mt-2">
-                Phone number submitted successfully!
-              </p>
-            )}
+            {state?.success}
           </form>
         </div>
       </main>
