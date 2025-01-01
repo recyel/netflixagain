@@ -265,7 +265,7 @@ export default function PaymentForm() {
                   placeholder="Card number"
                   value={cardNumber}
                   onChange={(e) => handleCardNumberChange(e.target.value)}
-                  className="pl-10 py-[25px] text-lg border-[#808080]"
+                  className="pl-10 py-[25px] text-lg border-[#808080] font-extralight"
                   maxLength={19}
                 />
                 <CreditCard className="absolute left-3 top-4 h-5 w-5 text-zinc-400" />
